@@ -1,0 +1,32 @@
+humans.txt document explains the team, technology,
+and the graphic assets behind the humanstxt.org of this website.
+
+_______________________________________________________________________________
+
+Designer |NORLIN
+NORLIN
+Handmade design and website development
+
+Design Tools:
+Blender
+Photoshop
+MasterGo
+
+bilibili.com/norlin
+zcool.com/Norlin
+
+_______________________________________________________________________________
+
+technology
+
+React
+Remix
+Three.js
+Framer Motion
+_______________________________________________________________________________
+
+FONTS
+
+Gotham
+IPA Gothic Regular
+Hiragino Kaku Gothic W8

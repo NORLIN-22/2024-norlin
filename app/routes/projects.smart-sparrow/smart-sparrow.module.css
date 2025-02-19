@@ -1,0 +1,56 @@
+.video {
+  width: 120%;
+
+  @media (--mediaLaptop) {
+    width: 100%;
+  }
+
+  @media (--mediaTablet) {
+    width: 100%;
+  }
+}
+
+.text-container {
+  max-width: 1000px; /* 增加最大宽度以便显示更多字符 */
+  margin: 0 auto; /* 居中对齐 */
+  line-height: 1.6; /* 可选：调整行间距 */
+  font-size: 16px; /* 可选：调整字体大小 */
+  text-align: justify; /* 两端对齐 */
+}
+
+.sidebarImages {
+  display: grid;
+  grid-template-columns: repeat(6, [col] 1fr);
+  align-items: center;
+
+  @media (--mediaTablet) {
+    padding: 0 80px;
+    margin-top: 60px;
+  }
+
+  @media (--mediaMobile) {
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+}
+
+.sidebarImage {
+  &:first-child {
+    grid-column: col 1 / span 4;
+    grid-row: 0.5;
+    position: relative;
+    top: 0%; /* 确保位置在默认位置 */
+    opacity: 0.0; /* 完全隐藏第一个图片 */
+  }
+  
+  .boldTitle {
+    font-weight: bold; /* 确保这段样式用于加粗文本 */
+  }
+  
+  &:last-child {
+    grid-column: col 3 / span 4;
+    grid-row: 1;
+    position: relative;
+    top: -0%; /* 上移5% */
+  }
+}
